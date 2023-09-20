@@ -3,12 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-#heading{
+.title{
     background-color: bisque;
     text-align: center;
     font-size: 2rem;
 }
-#header{
+.heading{
     font-size: 1.2rem;
     display: inline-block;
     padding-left: 1rem;
