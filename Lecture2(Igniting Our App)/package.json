@@ -1,0 +1,28 @@
+{
+  "name": "igniting",
+  "version": "1.0.0",
+  "description": "This Is The Package Manager For Our React App called Igniting Our App.",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/itsindrajput/Namaste-React.git"
+  },
+  "author": "Rishabh Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsindrajput/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/itsindrajput/Namaste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

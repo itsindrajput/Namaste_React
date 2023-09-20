@@ -1,0 +1,24 @@
+This is a very useful Mantra 🙏
+
+✔ React.createElement
+It ends up being a Javascript object, the render method takes this object as input and converts it to HTML elements and puts it into DOM.
+
+✔ JSX
+This is not HTML inside Javascript and this is HTML like syntax.
+Babel 🚀 (powerful Javascript library) will convert JSX into React.createElement and at the end it becomes an object again.
+
+✔ Functional Component
+Functional components are just normal Javascript functions and it returns some piece of JSX, nothing else 😀
+
+✔ Class Component
+These are normal Javascript classes which extend React.component (provided by react) to make the normal class as react component. It has render() method to return some piece of JSX.
+
+✔ React Hooks
+No need to panic about react hooks at all, these are also normal Javascript functions. We can have our hooks as well.
+
+✔ React Context
+Context is used to store some data which we need all across our application.
+Context also a function which is created using createContext function.
+
+✔ Flow of the application behind the scene
+JSX ➡️ React.createElement ➡️ Object ➡️ rendered as HTML into DOM
