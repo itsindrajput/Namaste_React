@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5rem;
+}
+#heading{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    border: 1px inset black;
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(16, 14, 14);
+}
+h5{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: rgb(44, 41, 41);
+}
+.nav-items > ul{
+    list-style-type: none;
+    display: flex;
+    font-size: 1.1rem;
+}
+.nav-items > ul > li{
+    padding: 0.5rem;
+}
+.logo{
+    width: 10rem;
+    margin-top: 0.2rem;
+}
+@media only screen and (max-width: 470px) {
+    .logo {
+        width: 7rem;
+        margin-top: 0.5rem;
+    }
+  }
+
+.card{
+    width: 240px;
+    border: 1px inset gray;
+    margin: 1rem;
+}
+.card > img{
+    width: 238px;
+    height: 250px;
+}
+.Restaurant-List{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+.footer{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding: 0.5rem;
+    border: 1px inset black;
+}
